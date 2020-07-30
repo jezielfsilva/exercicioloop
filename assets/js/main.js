@@ -26,8 +26,6 @@ while (odd <= 100) {
     odd++;
 }
 
-// terei que usar modulus(resto de uma divisão) odd %= 2 para poder tirar todos os números divisiveis por 2 //
-
 // 5 - Logar uma lista usando Map e forEach //
 
 const carsTips = ["pick-up","sedan","hatch","station vagon"];
