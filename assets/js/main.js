@@ -18,13 +18,15 @@ for (let par = 0; par <= 50; par++) {
     console.log(par*2);
 }
 
-// 4 - Conrar todos os numeros ímpares de 0 a 100 usando while //
+// 4 - Contar todos os numeros ímpares de 0 a 100 usando while //
 
 let odd = 0;
 while (odd <= 100) {
     console.log(odd);
     odd++;
 }
+
+// terei que usar modulus(resto de uma divisão) odd %= 2 para poder tirar todos os números divisiveis por 2 //
 
 // 5 - Logar uma lista usando Map e forEach //
 
