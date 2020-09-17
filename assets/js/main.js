@@ -14,16 +14,16 @@ while (num >= 0) {
 
 // 3 - Contar todos os numeros pares de 0 a 100 usando for //
 
-for (let par = 0; par <= 50; par++) {
-    console.log(par*2);
+for (let par = 0; par <= 100; par += 2) {
+    console.log(par);
 }
 
 // 4 - Contar todos os numeros ímpares de 0 a 100 usando while //
 
-let odd = 0;
+let odd = 1;
 while (odd <= 100) {
     console.log(odd);
-    odd++;
+    odd+= 2;
 }
 
 // 5 - Logar uma lista usando Map e forEach //
